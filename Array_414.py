@@ -1,7 +1,7 @@
-//Third Maximum Number
-//Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
+#Third Maximum Number
+#Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
 
-//solution
+#solution
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         unique=[]
@@ -16,7 +16,7 @@ class Solution:
         else:
             return max(unique)
             
-//best
+#best
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         new = list(set(nums))
@@ -28,7 +28,7 @@ class Solution:
             m  = new[-3]
         return m
         
- //best2
+ #best2
  class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         hash = sorted(set(nums))

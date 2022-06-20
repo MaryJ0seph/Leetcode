@@ -1,6 +1,6 @@
-// Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
+#Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
 
-//this could be done by pointer as well
+#this could be done by pointer as well
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:       
@@ -8,7 +8,7 @@ class Solution:
             nums.remove(val)
             
             
-//best solution
+#best solution
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         k = 0

@@ -1,4 +1,4 @@
-//Valid Mountain Array
+#Valid Mountain Array
 
 class Solution:
     def validMountainArray(self, arr: List[int]) -> bool:
@@ -17,7 +17,7 @@ class Solution:
         
         return i==j and 0 < i and j < n-1
         
-//best
+#best
 class Solution:
     def validMountainArray(self, arr: List[int]) -> bool:
         left = 0

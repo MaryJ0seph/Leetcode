@@ -1,6 +1,6 @@
-//Given an array arr of integers, check if there exists two integers N and M such that N is the double of M ( i.e. N = 2 * M).
+#Given an array arr of integers, check if there exists two integers N and M such that N is the double of M ( i.e. N = 2 * M).
 
-//MySolution
+#MySolution
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
         #j = 0
@@ -12,7 +12,7 @@ class Solution:
                         print (arr[i])
                         return int
                         
-//bestsolution
+#bestsolution
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
         dic = {}
@@ -24,12 +24,12 @@ class Solution:
                 return True
         return False
         
-//bestsolution2
+#bestsolution2
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
         seen = set()
         for i in arr:
-            if 2 * i in seen or i % 2 == 0 and i // 2 in seen:
+            if 2 * i in seen or i % 2 == 0 and i #2 in seen:
                 return True;
             seen.add(i)
         

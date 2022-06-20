@@ -1,6 +1,6 @@
-//Replace Elements with Greatest Element on Right Side
-//Input: arr = [17,18,5,4,6,1]
-//Output: [18,6,6,6,1,-1]
+#Replace Elements with Greatest Element on Right Side
+#Input: arr = [17,18,5,4,6,1]
+#Output: [18,6,6,6,1,-1]
 
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
@@ -16,7 +16,7 @@ class Solution:
             lastval = newval
         return arr 
         
-//best solution
+#best solution
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         n=len(arr)

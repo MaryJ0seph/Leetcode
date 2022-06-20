@@ -1,7 +1,7 @@
-//Given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
+#Given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
 
-//Input: nums = [3,1,2,4]
-//Output: [2,4,3,1]
+#Input: nums = [3,1,2,4]
+#Output: [2,4,3,1]
 
 
 class Solution:
@@ -15,7 +15,7 @@ class Solution:
         return nums 
         
         
-//best
+#best
 class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
         odd = []

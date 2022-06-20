@@ -1,6 +1,6 @@
-//Given a fixed-length integer array arr, duplicate each occurrence of zero, shifting the remaining elements to the right.
-//Input: arr = [1,0,2,3,0,4,5,0]
-//Output: [1,0,0,2,3,0,0,4]
+#Given a fixed-length integer array arr, duplicate each occurrence of zero, shifting the remaining elements to the right.
+#Input: arr = [1,0,2,3,0,4,5,0]
+#Output: [1,0,0,2,3,0,0,4]
 
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:

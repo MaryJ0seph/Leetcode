@@ -1,4 +1,4 @@
-//Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
+#Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int: 
@@ -9,7 +9,7 @@ class Solution:
                 loc+=1
         return loc  
         
-//best solution
+#best solution
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         i = 0

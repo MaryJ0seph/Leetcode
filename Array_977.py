@@ -1,8 +1,8 @@
-//Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
-//Input: nums = [-4,-1,0,3,10]
-//Output: [0,1,9,16,100]
+#Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+#Input: nums = [-4,-1,0,3,10]
+#Output: [0,1,9,16,100]
 
-//old -long run time
+#old -long run time
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
         newnums=[None]*5
@@ -10,7 +10,7 @@ class Solution:
             newnums[i]=nums[i]*nums[i]
         return sorted(newnums)    
         
-//new
+#new
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
         #create new array
